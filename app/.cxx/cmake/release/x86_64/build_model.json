@@ -1,0 +1,72 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "D:\\github\\IThouse-version-2.0",
+      "sdkFolder": "D:\\AndroidSDK",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "D:\\github\\IThouse-version-2.0\\app\\build\\intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "D:\\github\\IThouse-version-2.0\\app",
+      "makeFile": "D:\\github\\IThouse-version-2.0\\app\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "D:\\github\\IThouse-version-2.0\\.cxx",
+      "cxxFolder": "D:\\github\\IThouse-version-2.0\\app\\.cxx",
+      "ndkFolder": "D:\\AndroidSDK\\ndk-bundle",
+      "ndkVersion": "20.1.5948944",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [
+      ""
+    ],
+    "variantName": "release",
+    "soFolder": "D:\\github\\IThouse-version-2.0\\app\\build\\intermediates\\cmake\\release\\lib",
+    "objFolder": "D:\\github\\IThouse-version-2.0\\app\\build\\intermediates\\cmake\\release\\obj",
+    "jsonFolder": "D:\\github\\IThouse-version-2.0\\app\\.cxx\\cmake\\release",
+    "gradleBuildOutputFolder": "D:\\github\\IThouse-version-2.0\\app\\.cxx\\cxx\\release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "X86_64",
+  "abiPlatformVersion": 21,
+  "cxxBuildFolder": "D:\\github\\IThouse-version-2.0\\app\\.cxx\\cmake\\release\\x86_64",
+  "jsonFile": "D:\\github\\IThouse-version-2.0\\app\\.cxx\\cmake\\release\\x86_64\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "D:\\github\\IThouse-version-2.0\\app\\.cxx\\cxx\\release\\x86_64",
+  "objFolder": "D:\\github\\IThouse-version-2.0\\app\\build\\intermediates\\cmake\\release\\obj\\x86_64",
+  "buildCommandFile": "D:\\github\\IThouse-version-2.0\\app\\.cxx\\cmake\\release\\x86_64\\build_command.txt",
+  "buildOutputFile": "D:\\github\\IThouse-version-2.0\\app\\.cxx\\cmake\\release\\x86_64\\build_output.txt",
+  "modelOutputFile": "D:\\github\\IThouse-version-2.0\\app\\.cxx\\cmake\\release\\x86_64\\build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "D:\\github\\IThouse-version-2.0\\app\\.cxx\\cxx\\release\\x86_64\\CMakeLists.txt",
+    "toolchainWrapperFile": "D:\\github\\IThouse-version-2.0\\app\\.cxx\\cxx\\release\\x86_64\\android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "D:\\github\\IThouse-version-2.0\\app\\.cxx\\cxx\\release\\x86_64\\build_generation_state.json",
+    "cacheKeyFile": "D:\\github\\IThouse-version-2.0\\app\\.cxx\\cxx\\release\\x86_64\\compiler_cache_key.json",
+    "compilerCacheUseFile": "D:\\github\\IThouse-version-2.0\\app\\.cxx\\cxx\\release\\x86_64\\compiler_cache_use.json",
+    "compilerCacheWriteFile": "D:\\github\\IThouse-version-2.0\\app\\.cxx\\cxx\\release\\x86_64\\compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "D:\\github\\IThouse-version-2.0\\app\\.cxx\\cxx\\release\\x86_64\\compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "D:\\github\\IThouse-version-2.0\\app\\.cxx\\cmake\\release\\x86_64\\json_generation_record.json",
+  "compileCommandsJsonFile": "D:\\github\\IThouse-version-2.0\\app\\.cxx\\cmake\\release\\x86_64\\compile_commands.json"
+}

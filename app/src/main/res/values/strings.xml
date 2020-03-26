@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">智能酒店</string>
+    <string name="author">Danmo</string>
+    <string name="git_hub">GitHub</string>
+    <string name="blog">Csdn</string>
+    <string name="wordpress">WordPress</string>
+    <string name="demo_of_android_util_code">Owner the World</string>
+
+    <string name="main_tab_name_news">资讯</string>
+    <string name="main_tab_name_tweet">辣品</string>
+    <string name="main_tab_name_explore">圈子</string>
+    <string name="main_tab_name_my">我</string>
+    <string name="yesterday">昨天</string>
+    <string name="just">刚刚</string>
+    <string name="comment_text">评</string>
+
+    <string name="tip_double_click_exit">再按一次将退出应用</string>
+
+    <string name="option_title_refresh">刷新</string>
+    <string name="option_title_font">字体大小</string>
+    <string name="option_title_night">夜间模式</string>
+    <string name="option_title_browser">调用外部浏览器打开</string>
+    <string name="option_title_error">文章纠错</string>
+    <string name="option_title_speech">语音朗读</string>
+
+    <string name="bye_burger_float_behavior">com.danmo.commonutil.behavior.ByeBurgerFloatButtonBehavior</string>
+    <string name="bye_burger_bottom_behavior">com.danmo.commonutil.behavior.ByeBurgerBottomBehavior</string>
+    <string name="bye_burger_title_behavior">com.danmo.commonutil.behavior.ByeBurgerTitleBehavior</string>
+    <string name="init_failed">init failed,code is %d</string>
+    <string name="permission_denied">permission denied!</string>
+    <string name="get_picture_failed">failed to get picture!</string>
+    <string name="active_failed">active failed,code is %d</string>
+
+    <string name="detail_zebian">责编: 马卡</string>
+    <string name="detail_author">新浪科技</string>
+    <string name="detail_time">2017-09-23 19:51</string>
+    <string name="detail_jiucuo">我要纠错</string>
+    <string name="detail_comment_tip">打分后显示文章质量得分，当前0人打分</string>
+    <string name="detail_comment_bad">无价值</string>
+    <string name="detail_comment_soso">还可以</string>
+    <string name="detail_comment_good">有价值</string>
+    <string name="detail_releated_actical">相关文章</string>
+    <string name="detail_recommend_actical">大家都在买</string>
+</resources>

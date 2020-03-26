@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/annonce.main.coordinator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/diy_gray">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="55dp"
+        android:scrollbars="none"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="电器控制"
+                android:textSize="16sp"
+                android:layout_margin="8dp"
+                android:layout_marginLeft="12dp"/>
+            <include
+                android:id="@+id/userinfo_head_logined"
+                layout="@layout/userinfo_item_head_logined"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/userinfo_item_1"
+                layout="@layout/userinfo_item_1" />
+
+<!--            <include-->
+<!--                android:id="@+id/userinfo_item_2"-->
+<!--                layout="@layout/userinfo_item_2" />-->
+
+<!--            <include layout="@layout/userinfo_item_3" />-->
+
+<!--            <include layout="@layout/userinfo_item_4" />-->
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

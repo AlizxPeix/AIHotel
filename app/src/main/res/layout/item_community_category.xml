@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom=".1dp">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_community_catetory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/recycler_view_community_catetory"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:gravity="center">
+
+        <RadioGroup
+            android:id="@+id/community_category_group"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/community_category_newest"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/layer_community_post_hot_new_bg"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:text="最新帖子"
+                android:textColor="@color/community_post_hot_color_text_selector"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/community_category_hotest"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/layer_community_post_hot_new_bg"
+                android:button="@null"
+                android:gravity="center"
+                android:text="热门帖子"
+                android:textColor="@color/community_post_hot_color_text_selector"
+                android:textSize="16sp" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+</RelativeLayout>
